@@ -1,0 +1,188 @@
+
+.class-body{
+  margin-left: 100px;
+  width: 90%;
+  margin-top:5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.class-headline{
+    text-align: center;
+    color: #2599bd;
+    font-size: 50px;
+    
+}
+.class-headline1{
+  text-align: center;
+  color: #2599bd;
+  font-size: 30px;
+}
+.class-form{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.class-input{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 15px;
+  border: 0.5px solid 
+}
+.class-inputR{
+ width: 98%;
+ padding-left: 10px;
+}
+.class-button-close{
+  background-color: transparent;
+  border: none;
+  padding-top:10px ;
+  
+
+}
+
+.class-section {
+  overflow:auto;
+    width: 100%;
+    height: 100%;
+    /* margin: 50px; */
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+      Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+      Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 20px;
+  }
+  .class-table {
+    width: 90%;
+    border: 1px solid white;
+    margin: 70px;
+    
+  }
+  .icon {
+    padding: 10px;
+  }
+  .class-button{
+    padding-top: 10px;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+  }
+  .class-buttonR{
+    padding: 5px;
+    background-color: #2599bd;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  .class-buttonRR{
+    padding: 5px;
+    background-color: #2599bd;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: 150px;
+    margin-top: 5px;
+  }
+
+  
+  .class-button:active {
+    background-color: #98d4e6;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .class-image{
+    width: 2rem;
+  }
+  .head-div{
+    display: flex;
+    
+    justify-content:flex-end;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 90px;
+  
+  }
+  
+  
+   .name2 {
+    width: 40%;
+   }
+  .class-th {
+    border: 2px solid white;
+    background-color: #2599BD;
+    color: white;
+    
+    height: 40px;
+   
+  }
+  
+  .row1 :hover {
+    background-color: #98d4e6;
+  }
+  .class-tr {
+    border: 1px solid white;
+    
+  }
+  .class-td {
+    border: 2px solid white;
+    background-color: #ededed;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .name {
+    padding-left: 10px;
+    width: 50% ;
+    text-align:center;
+  }
+ 
+ 
+  .row {
+    height: 60px;
+  }
+ 
+    .class-table {
+      width: 80%;
+      border: 1px solid white;
+      margin: 50px;
+      
+    }
+    
+    @media (max-width: 768px) {
+    .class-body{
+      margin-top: 0;
+      margin-left: 0px;
+    }
+     .class-headline{
+      font-size: 30px;
+      padding-left: 30px;
+    }
+    .class-headline1{
+      font-size: 20px;
+     }
+     .class-section {
+      padding-right: 20px;
+      
+     }
+     .class-form{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding-left: 40px;
+    }
+    .class-input{
+      padding: 5px;
+      margin-left: 70px;
+    }
+    
+    .class-image{
+      width: 1.5rem;
+    }
+    .class-td{
+      font-size: 15px;
+    }
+    .class-buttonRR{
+      margin-left: 133px;
+    }
+   
+   
+}

@@ -1,0 +1,21 @@
+.picture img{
+    height: 49.2rem;
+    width :103.2rem;
+}
+
+.app-body{
+    display: flex;
+    
+}
+@media (max-width: 768px) {
+    .picture img{
+        height: 45rem;
+        width :24.5rem;
+    }
+    .app-body{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+}

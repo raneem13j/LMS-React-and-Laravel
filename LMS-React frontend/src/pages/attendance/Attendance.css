@@ -1,0 +1,214 @@
+
+.dropdownSection {
+  margin-left: 4rem;
+  width: 12rem;
+  background-color: #2599bd;
+  border: 2px solid #2599bd;
+  border-radius: 15px;
+  color: white;
+}
+.class-body-att{
+  margin-left: 100px;
+  width: 90%;
+  margin-top:5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.class-headline-att{
+    text-align: center;
+    color: #2599bd;
+    font-size: 50px;
+    
+}
+
+.section {
+  width: 20rem;
+}
+
+.childSection {
+  font-size: 20px !important;
+}
+
+.attendances {
+  display: flex;
+  justify-content: center;
+}
+
+.present {
+  border: 1px solid #2599bd;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+}
+.present:active {
+  transform: translateY(2px);
+}
+
+.absent {
+  border: 1px solid #2f7f97;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+}
+.absent:active {
+  transform: translateY(2px);
+}
+
+.late {
+  border: 1px solid #2f7f97;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+}
+.late:active {
+  transform: translateY(2px);
+}
+
+.gradeAndSection {
+  width: 26rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sectionAttendance {
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 3rem;
+  background-color: #2599bd;
+  border-radius: 25px;
+  color: white;
+}
+
+.gradeAttendance {
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 3rem;
+  background-color: #2599bd;
+  border-radius: 25px;
+  color: white;
+}
+
+.createAttendance {
+  width: 80rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.attendance-section {
+  /* overflow:auto; */
+  width: 80%;
+  height: 100%;
+  /* margin: 50px; */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 20px;
+}
+.attendance-table {
+  width: 90%;
+  border: 1px solid white;
+  margin: 70px;
+}
+.icon1 {
+  padding: 10px;
+}
+
+.nameR1 {
+  padding-left: 40px;
+}
+.attendance-th {
+  border: 2px solid white;
+  background-color: #2599bd;
+  color: white;
+
+  height: 40px;
+}
+
+.attendance-tr {
+  border: 1px solid white;
+}
+.attendance-td {
+  border: 2px solid white;
+  background-color: #ededed;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.nameA {
+  padding-left: 10px;
+  width: 40%;
+  text-align: center;
+}
+.nameAA {
+  width: 10%;
+  text-align: center;
+}
+
+.rowR {
+  height: 60px;
+}
+@media screen and (max-width: 1024px) {
+  .nameR {
+    padding-left: 10px;
+    width: 50%;
+    text-align: left;
+  }
+  .gradeAndSection {
+    width: 23rem;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -55rem;
+    margin-top: 10rem;
+  }
+
+  .attendance-table {
+    width: 50%;
+    border: 1px solid white;
+    margin-top: 5rem;
+    margin-left: -10rem;
+  }
+}
+@media (max-width: 768px) {
+  .attendance-section {
+    padding-right: 20px;
+  }
+
+  .nameA1 {
+    padding-left: 65px;
+  }
+  .dropdownSection {
+    width: 18rem;
+    background-color: #2599bd;
+    border: 2px solid #2599bd;
+    border-radius: 15px;
+    color: white;
+    margin-right: 3rem;
+  }
+  .attendances {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .createAttendance {
+    margin-top: 5rem;
+  }
+  .attendance-table {
+    width: 50%;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-left: -15rem;
+  }
+  .gradeAndSection {
+    width: 23rem;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -24rem;
+  }
+}

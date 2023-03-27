@@ -1,0 +1,466 @@
+*{
+  font-family:  'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+}
+.class-body-t{
+  margin-left: 50px;
+  width: 90%;
+ 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.class-headline-t{
+    text-align: center;
+    color: #2599bd;
+    font-size: 50px;
+   
+    
+}
+
+
+
+.lol {
+    width: min-content;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      margin-left: 108px;
+      margin-top: 30px;
+}
+.mappingdata{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-gap: 80px;
+  width: 100%;
+}
+.student-img {
+  width:200px;
+  padding-left: 80px;
+}
+ 
+.del{
+  margin-bottom: 20px!important;
+}
+.first-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 100px;
+  width: 100%;
+}
+#header-search{
+  width: 200px;
+  font-size: 20px;
+  line-height: 50px;
+  /* border-color: #2599BD ;
+  border-radius: 12px; */
+  flex: 1;
+  border: none;
+  outline: none;
+  
+  
+}
+.searchStudentButton{
+  background: #14738f;
+ 
+  /* border-color: black ; */
+  border-radius: solid ;
+  line-height: 40px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  width:400px
+  
+
+}
+.search-btns{
+  
+    border: none;
+    width: 150px;
+    font-size: 10px;
+    font-weight: bolder;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.87);
+    background:#14738f;
+    border-radius: 12px;
+    border-color: #2599BD ;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.coll-btns{
+  
+  
+  font-weight: bolder;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.87);
+  background:#14738f;
+  border-radius: 12px;
+  border-color: #2599BD ;
+  margin-right: 0px;
+  line-height: 30px;
+  width: 250px;
+  height: 50px;
+  font-size: 20px !important;
+  
+}
+
+.coll-btn-select{
+  
+  width: 250px;
+  height: 50px;
+  font-size: 20px !important;
+  align-items: flex-end;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.87);
+  background: #14738f;
+  border-radius: 12px;
+  border-color: #2599BD ;
+  /* font-size: 10px; */
+  line-height: 20px;
+  
+}
+.colle-btn{
+  width: 150px;
+  font-size: 25px;
+  align-items: flex-start;
+  font-weight: bolder;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.87);
+  background: #14738f !important;;
+  border-radius: 12px;
+  border-color: #2599BD ;
+  font-size: 20px;
+  line-height: 20px;
+}
+.infopartt{
+    
+   padding: 15px; 
+   width: 320px; 
+   height: 300px;
+   color: black; 
+  background-color:#7dc9e1;
+  font-size: 17px;
+  font-family:  'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+  border-radius: 10px;
+}
+
+
+.align-info{
+  text-align: left;
+  padding-left: 50px;
+  
+}
+
+.button:hover{
+  background:  #2599BD;
+  border-radius: 10px;
+  border-color: #050108eb ;
+  font-size: 20px;
+  line-height: 30px;
+  cursor: pointer;
+}
+ 
+.collection-button {
+  width:150px;
+  height: 7%;
+  background: #14738f;
+  border-radius: 12px;
+  border-color: #2599BD ;
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 5px;
+} 
+
+hr{
+  border-top: 1px solid black;
+ border-bottom: black;
+
+}
+
+
+
+
+
+
+
+   .formm{
+        font-size: 25px;
+        position: fixed;
+        line-height: 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        width: 100%;
+        justify-content: center;
+        background-color:rgba(0, 0, 0, 0.749); 
+        z-index: 10000;
+        top:150px;
+        margin-top: -150px;
+        
+        margin-left: -428px;
+}  
+
+  #typee{
+border-radius: 10px;
+background-color: white;
+color: black!important;
+
+  }
+    .textForm1{
+     width: 150px;
+     border-color:#0a4d61 ;
+     height:20px;
+     border-radius: 10px;
+      
+     
+    }
+    .textForm2{
+      width: 150px;
+      border-color:#0a4d61 ;
+      height:20px;
+      border-radius: 10px;
+      
+      
+     }
+     .textForm3{
+      width: 150px;
+      border-color:#0a4d61 ;
+      height:20px;
+      margin-left: 45px;
+      border-radius: 10px;
+      
+      
+     }
+     .textForm4{
+      width: 150px;
+      border-color:#0a4d61 ;
+      height:20px;
+      margin-left: 10px;
+      border-radius: 10px;
+      
+      
+     }
+     .textForm5{
+      width: 150px;
+      border-color:#0a4d61 ;
+      height:20px;
+      border-radius: 10px;
+       
+      
+     }
+
+      .alignForm{
+        align-self: self-start;
+        margin-left: 150px;
+         color:rgba(255, 255, 255, 0.962)!important; 
+      }
+
+      .firstt-formm{
+         margin-top: 150px; 
+        
+           
+            border-radius: 10px;
+            background-color: #14738f;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            width:30%;
+            z-index: 10;
+            top: 1px;
+            margin-bottom: 250px;
+           
+        } 
+        .second-formm{
+          border-radius: 10px;
+          background-color: #14738f;
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          width:40%;
+           z-index: 10;
+          top: 1px; 
+          margin-top: 150px;
+          margin-left: -30px;
+          margin-bottom: 500px;
+
+          
+        
+          }
+          .levsecc{
+            display: flex;
+            background-color:#7dc9e1;
+            width:160px;
+            font-size: 30px;
+            font-family:  'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+            border-radius: 10px;
+            
+          }
+          .levelNa{
+            
+            background-color:#7dc9e1;
+    font-size: 20px;
+    font-family:  'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    border-radius: 10px;
+          }
+
+
+@media screen and (max-width: 768px) {
+  
+    .lol{
+      margin-left:40px;
+    }
+
+     .childSection{
+      font-size: 15px!important;
+      width: 27%;
+     }
+ 
+    .first-buttons{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+
+    .coll-btn-select{
+      width:100% !important;
+      align-items: center;
+      
+    }
+
+    .coll-btns{
+      width: 45%;
+    }
+
+    .formm{
+      font-size: 25px;
+      position: fixed;
+      line-height: 30px;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      /* justify-content: center; */
+      background-color:rgba(0, 0, 0, 0.749); 
+      z-index: 100;
+      top:150px;
+      /* margin-top: -150px;*/
+      
+      margin-left: -30px; 
+}  
+
+
+    .mappingdata{
+        display: grid;
+        /* gap: 40px ; */
+        grid-template-columns: 1fr ;
+        padding: 10px;
+        /* margin: auto auto; */
+        width: 30%;
+        margin:0px;
+      }
+      .formm{
+
+        font-size: 25px;
+        line-height: 30px;
+        color:black;
+        display: flex;
+        flex-direction: row; 
+        
+        
+        
+        } 
+      
+      .firstt-formm{
+        /* margin-left: 1%; */
+        width: 80%;
+        /* margin-left: 80%; */
+    
+    
+    }
+    .second-formm{
+         display: flex;
+         flex-direction: column;
+         width: 75%;
+         margin-left: 30px;
+        
+        }
+        .alignForm{
+          margin-left: 3%;
+        }
+        
+        .textForm1{
+          width: 150px;
+          border-color:#0a4d61 ;
+          height:20px;
+          border-radius: 10px;
+          
+         
+         }
+         .textForm2{
+           width: 150px;
+           border-color:#0a4d61 ;
+           height:20px;
+           border-radius: 10px;
+            
+           
+          }
+          .textForm3{
+           width: 150px;
+           border-color:#0a4d61 ;
+           height:20px;
+           border-radius: 10px;
+          
+           
+          }
+          .textForm4{
+           width: 150px;
+           border-color:#0a4d61 ;
+           height:20px;
+           margin-left: 10px;
+           border-radius: 10px;
+           
+           
+          }
+          .textForm5{
+           width: 150px;
+           border-color:#0a4d61 ;
+           height:20px;
+           border-radius: 10px;
+           
+
+        
+           
+          
+          }
+  
+    .searchStudentButton{
+      display: none;
+    }
+    .class-body-RR{
+      margin-left:10px;
+      width: 90%;
+     
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .class-headline-RR{
+        text-align: center;
+        color: #2599bd;
+        font-size: 50px;
+       
+        
+    }
+    .levsecc{
+      display: flex;
+      background-color:#7dc9e1;
+      width:160px;
+      font-size: 30px;
+      font-family:  'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+      border-radius: 10px;
+      text-align: center;
+      
+    }
+            
+          
+        }

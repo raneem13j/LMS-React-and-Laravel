@@ -1,0 +1,75 @@
+.search {
+    width: 100rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.searchName input {
+    padding: 10px;
+    width: 15rem;
+    border: 2px solid #2599BD;
+
+
+}
+
+.searchSection input {
+    padding: 10px;
+    width: 15rem;
+}
+
+.statusByName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+}
+
+.boxStatus h5 {
+    border: 1px solid black;
+    padding: 4px;
+    margin: 10px;
+    width: 7rem;
+
+}
+
+.boxStatus {
+    display: flex;
+    margin-right: 8rem;
+}
+
+.searchSection {
+    display: flex;
+    justify-content: space-around;
+}
+
+.searchSection input {
+    border: 2px solid #2599BD;
+}
+
+.report {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxStatus1 h5 {
+    border: 1px solid black;
+    padding: 4px;
+    margin: 10px;
+    width: 15.3rem;
+
+}
+
+.boxStatus1 {
+    display: flex;
+    margin-right: 8rem;
+}
+
+.pie {
+    width: 20rem;
+    padding: 1rem;
+    margin-left: 31rem;
+
+}

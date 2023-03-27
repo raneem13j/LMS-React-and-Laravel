@@ -1,0 +1,187 @@
+.section-body{
+  width: 90%;
+  margin-top: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section-headline{
+    text-align: center;
+    color: #2599bd;
+    font-size: 50px;
+}
+.section-headline1{
+  text-align: center;
+  color: #2599bd;
+  font-size: 30px;
+}
+.section-form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-input{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 15px;
+  border: 0.5px solid 
+}
+.section-inputR{
+  width: 98%;
+  padding-left: 10px;
+ }
+.section-buttonR{
+  padding: 5px;
+  background-color: #2599bd;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.section-section {
+  /* overflow:auto; */
+    width: 100%;
+    height: 100%;
+    /* margin: 50px; */
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+      Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+      Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 20px;
+  }
+  .section-table {
+    width: 90%;
+    border: 1px solid white;
+    margin: 70px;
+    
+  }
+  .icon {
+    padding: 10px;
+  }
+  .section-button{
+    padding-top: 10px;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+  }
+  .section-buttonR{
+    padding: 5px;
+    background-color: #2599bd;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  .section-buttonRR{
+    padding: 5px;
+    background-color: #2599bd;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: 150px;
+    margin-top: 5px;
+  }
+
+  
+  .section-button:active {
+    background-color: #98d4e6;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .section-image{
+    width: 2rem;
+  }
+  .head-div{
+    display: flex;
+    
+    justify-content:flex-end;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 90px;
+  
+  }
+  
+  .nameR1 {
+    padding-left: 40px;
+   }
+  .section-th {
+    border: 2px solid white;
+    background-color: #2599BD;
+    color: white;
+   
+    height: 40px;
+   
+  }
+  
+  .row1 :hover {
+    background-color: #98d4e6;
+  }
+  .section-tr {
+    border: 1px solid white;
+    
+  }
+  .section-td {
+    border: 2px solid white;
+    background-color: #ededed;
+    border-radius: 15px;
+  }
+  .nameR {
+    padding-left: 10px;
+    width: 90% ;
+    text-align:center;
+  }
+ 
+ 
+  .row {
+    height: 60px;
+  }
+ 
+  
+  @media screen and (max-width: 1024px) {
+    .nameR {
+      padding-left: 10px;
+      width: 50%;
+      text-align: left;
+    }
+    
+    .section-table {
+      width: 80%;
+      border: 1px solid white;
+      margin: 50px;
+      
+    }
+  }
+  @media (max-width: 768px) {
+     .section-headline{
+      font-size: 30px;
+      padding-left: 30px;
+     }
+     .section-headline1{
+      font-size: 20px;
+     }
+     .section-section {
+      padding-right: 20px;
+     }
+   
+    
+    .section-image{
+      width: 1.5rem;
+    }
+    .nameR1{
+      padding-left: 65px;
+    }
+    .section-form{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding-left: 40px;
+    }
+    .section-input{
+      padding: 5px;
+      margin-left: 70px;
+    }
+    .section-buttonRR{
+      margin-left: 133px;
+    }
+    .section-body{
+      margin-top: 0;
+    }
+   
+}

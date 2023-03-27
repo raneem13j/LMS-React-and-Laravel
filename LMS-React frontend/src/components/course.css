@@ -1,0 +1,36 @@
+.class-body-c{
+  margin-right: 200px;
+   width: 90%;
+   margin-top:5px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .class-headline-c{
+     text-align: center;
+     color: #2599bd;
+     font-size: 50px;
+     margin-bottom: 30px;
+     
+ }
+ @media (max-width: 768px) {
+  
+   .class-body-c{
+     margin-top: 0;
+     margin-left: 6px;
+   }
+    .class-headline-c{
+     font-size: 30px;
+     padding-left: 30px;
+   }
+}
+
+@media (min-width:768px) {
+  
+ .class-body-c{
+   margin-top: 5px;
+   margin-left: 100px;
+ }
+  .class-headline-c{
+   font-size: 30px;
+   padding-left: 20px;
+ }
+}

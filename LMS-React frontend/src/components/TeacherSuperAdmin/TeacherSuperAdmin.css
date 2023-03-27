@@ -1,0 +1,214 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+}
+.class-body-R{
+  margin-left: 50px;
+  width: 90%;
+ 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.class-headline-R{
+    text-align: center;
+    color: #2599bd;
+    font-size: 50px;
+   
+    
+}
+
+
+.lolTeacher {
+  width: min-content;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-left: 108px;
+  margin-top: 30px;
+}
+
+.coll-btn-select1 {
+
+  width: 250px;
+  height: 50px;
+  font-size: 20px !important;
+  align-items: flex-end;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.87);
+  background: #14738f;
+  border-radius: 12px;
+  border-color: #2599BD;
+  /* font-size: 10px; */
+  line-height: 20px;
+
+}
+.teacher-img{
+  width: 200px;
+    padding-left: 60px;
+}
+.add-updatebtn{
+  padding-left: 28%;
+}
+
+.firstt-formm1 {
+  margin-top: 80px;
+  border-radius: 10px;
+  background-color: #14738f;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 30%;
+  z-index: 10;
+  top: 1px;
+  margin-bottom: 250px;
+
+}
+
+.second-formm1 {
+  border-radius: 10px;
+  background-color: #14738f;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 40%;
+  z-index: 10;
+  top: 1px;
+  margin-top: 150px;
+  margin-left: -30px;
+  margin-bottom: 500px;
+
+
+
+}
+
+.button1:hover {
+  background: #2599BD;
+  border-radius: 10px;
+  border-color: #050108eb;
+  font-size: 20px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+#header-search1 {
+  width: 200px;
+  font-size: 20px;
+  line-height: 50px;
+  /* border-color: #2599BD ;
+    border-radius: 12px; */
+  flex: 1;
+  border: none;
+  outline: none;
+
+
+}
+.levseccR{
+  display: flex;
+  background-color:#7dc9e1;
+  width:160px;
+  font-size: 30px;
+  font-family:  'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+  border-radius: 10px;
+  
+}
+
+.search-btns1 {
+
+  border: none;
+  width: 150px;
+  font-size: 10px;
+  font-weight: bolder;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.87);
+  background: #14738f;
+  border-radius: 12px;
+  border-color: #2599BD;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.coll-btns1 {
+
+
+  font-weight: bolder;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.87);
+  background: #14738f;
+  border-radius: 12px;
+  border-color: #2599BD;
+  margin-right: 0px;
+  line-height: 30px;
+  width: 186px;
+  height: 50px;
+  font-size: 20px !important;
+
+}
+
+@media screen and (max-width: 768px) {
+  .lolTeacher{
+    margin-left:45px;
+  }
+
+  .firstt-formm1 {
+    /* margin-left: 1%; */
+    width: 80%;
+    /* margin-left: 80%; */
+
+
+  }
+
+  .childSection1 {
+    font-size: 15px !important;
+    width: 27%;
+  }
+
+  .second-formm1 {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-left: 30px;
+
+  }
+
+  .first-buttons1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .coll-btn-select1 {
+    width: 100% !important;
+    align-items: center;
+    
+
+  }
+
+  .coll-btns1 {
+    width: 45%;
+  }
+  .class-body-R{
+    margin-left:20px;
+    width: 90%;
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .class-headline-R{
+      text-align: center;
+      color: #2599bd;
+      font-size: 50px;
+     
+      
+  }
+  .levseccR{
+    display: flex;
+    background-color:#7dc9e1;
+    width:160px;
+    font-size: 30px;
+    font-family:  'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    border-radius: 10px;
+    text-align: center;
+    
+  }
+
+}
